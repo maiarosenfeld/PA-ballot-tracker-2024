@@ -259,7 +259,7 @@ if (total_ballots_returned > 1000000) {
 <br>
 <br>
 
-<iframe title="Search for your county" aria-label="Dot Plot" id="datawrapper-chart-ycOwi" src="https://datawrapper.dwcdn.net/ycOwi/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="525" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="PA mail ballots by registered party" aria-label="Table" id="datawrapper-chart-l4o8R" src="https://datawrapper.dwcdn.net/l4o8R/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="461" data-external="1"></iframe>
 </script>
 
 <br>
