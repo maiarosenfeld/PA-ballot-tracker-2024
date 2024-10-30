@@ -84,14 +84,14 @@ h4 {
    .card {
       color: white;
       float: left;
-      width: calc(30%);
+      width: calc(25%);
       padding: 5px;
-      border-radius: 15px;
+      border-radius: 10px;
       margin-left: 50px;
       margin-right: 50px;
       margin-top: 25px;
       margin-bottom: 25px;
-      height: 200%;
+      height: 100%;
    }
    .card p {
      #font-family: roboto;
