@@ -84,7 +84,7 @@ h4 {
    .card {
       color: white;
       float: left;
-      width: calc(27%);
+      width: calc(23%);
       padding: 5px;
       border-radius: 10px;
       margin-left: 25px;
