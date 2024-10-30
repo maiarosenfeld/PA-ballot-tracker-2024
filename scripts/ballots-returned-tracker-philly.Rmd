@@ -154,14 +154,14 @@ today_UTC <- as.POSIXct(Sys.time()) #get todays date as UTC
 today_posix <- format(today_UTC, tz="America/Eastern",usetz=TRUE)
 today <- as.Date(substr(as.character(today_posix), 1,10))
 yesterday <- as.Date(today-1) #get yesterday's date
-filename <- paste(sep="", "vbm-statistics_",yesterday,".xlsm") #put yesterdays date into filename
+filename <- "2024 General Daily Mail Ballot Report.xlsx"
 
 #pretty dates
 today_display <- format(today, "%A, %b. %d, %Y")
 
 download.file("https://www.pavoterservices.pa.gov/2024%20General%20Daily%20Mail%20Ballot%20Report.xlsx", filename) #download file
 
-ballots <- read_excel(filename) #read file
+ballots <- read_excel(filename, sheet = "Total") #read file
 ballots <- ballots[-1,] #drop extranneous top line (could pull updated date/time from here)
 
 # row_with_names <- ballots[1,]
