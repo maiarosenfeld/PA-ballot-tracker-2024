@@ -177,7 +177,7 @@ ballots_clean <- ballots %>%
          `Republican Applications Approved` = as.numeric(`Rep Applications Approved`),
         `Other Applications Approved` = as.numeric(`Oth Applications Approved`),
         `Democratic Ballots Returned` = as.numeric(`Dem Ballots Returned`), 
-        `Republican Ballots Returned` = as.numeric(`Re Ballots Returned`), 
+        `Republican Ballots Returned` = as.numeric(`Rep Ballots Returned`), 
         `Other Ballots Returned` = as.numeric(`Oth Ballots Returned`)) %>% #convert them all to numbers
   rename(`Ballot Applications Approved`=`Total Applications Approved`,
          `Ballots Returned`=`Total Ballots Returned`,
