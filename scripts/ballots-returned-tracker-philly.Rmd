@@ -253,7 +253,7 @@ if (total_ballots_returned > 1000000) {
 <br>
 
 
-<iframe title="Mail Ballots Returned" aria-label="Map" id="datawrapper-chart-YxRx6" src="https://datawrapper.dwcdn.net/YxRx6/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="478" data-external="1"></iframe>
+<iframe title="Share of mail ballots returned" aria-label="Map" id="datawrapper-chart-YxRx6" src="https://datawrapper.dwcdn.net/YxRx6/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="478" data-external="1"></iframe>
 </script>
 
 <br>
