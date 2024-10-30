@@ -183,7 +183,7 @@ ballots_clean <- ballots %>%
          County = `CountyName`) %>% 
   mutate(`Percent Returned` = round(((`Ballots Returned`/`Ballot Applications Approved`)*100), digits=2)) #percent that have been returned
 
-ballots_clean <- ballots_clean %>% select(`Total Applications Approved`, `Total Ballots Returned`, `Democratic Applications Approved`,`Republican Applications Approved`,`Other Applications Approved`,`Democratic Ballots Returned`,`Republican Ballots Returned`,`Other Ballots Returned`,`Percent Returned`)  # drop duplicate columns
+ballots_clean <- ballots_clean %>% select(`Ballot Applications Approved`, `Ballots Returned`, `Democratic Applications Approved`,`Republican Applications Approved`,`Other Applications Approved`,`Democratic Ballots Returned`,`Republican Ballots Returned`,`Other Ballots Returned`,`Percent Returned`)  # drop duplicate columns
 
 write.csv(ballots_clean, "ballots_clean.csv", row.names = FALSE)
 
