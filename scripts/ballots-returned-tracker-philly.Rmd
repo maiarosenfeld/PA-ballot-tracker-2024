@@ -186,10 +186,6 @@ ballots_clean <- ballots %>%
 
 write.csv(ballots_clean, "ballots_clean.csv", row.names = FALSE)
 
-```
-
-```{r, echo=FALSE, warning=FALSE}
-
 total_ballots_issued = sum(ballots_clean$`Ballot Applications Approved`)
 total_ballots_returned = sum(ballots_clean$`Ballots Returned`)
 # total_ballots_accepted = sum(ballots_clean$`Ballots accepted`)
