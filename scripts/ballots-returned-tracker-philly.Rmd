@@ -101,7 +101,7 @@ h4 {
    }
    .cardContainer:after {
       content: "";
-      display: table;
+      display: block;
       clear: both;
    }
    
