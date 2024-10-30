@@ -83,7 +83,7 @@ h4 {
    }
    .card {
       color: white;
-      float: left;
+      float: center;
       width: calc(20% - 10px);
       padding: 5px;
       border-radius: 10px;
@@ -208,7 +208,7 @@ if (total_ballots_returned > 1000000) {
 <h1>Pennsylvania Ballot Tracker</h1>
 <h4>Last updated `r today_display` </h4>
 
-<div class="cardContainer" style=position:fixed; left:50%;">
+<div class="cardContainer">
 <div class="card" style="background-color:#00318b;">
 <p>Ballots issued<br>
 <span class="bignumber">`r total_ballots_issued_display`<br></span>
