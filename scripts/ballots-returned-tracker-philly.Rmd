@@ -163,22 +163,13 @@ download.file("https://www.pavoterservices.pa.gov/2024%20General%20Daily%20Mail%
 
 ballots <- read_excel(filename, sheet = "Total", trim_ws = TRUE, skip = 1, col_names = TRUE) #read file
 
-
-#ballots <- ballots[-1,] #drop extranneous top line (could pull updated date/time from here)
-
-# row_with_names <- ballots[1,]
-# as.numeric(which(grepl(`CountyName`, ballots$...1))) #which row has the actual column names
-
-#names(ballots) <- ballots[1,] #fill in the column names with the actual columnn names from that row
-#ballots <- ballots[-1,] #drop that same row
-
 ```
 
 ```{r, echo=FALSE, warning=FALSE}
 
 ballots_clean <- ballots %>% 
   select(`CountyName`, `Total Applications Approved`,`Total Ballots Returned`, `Dem Applications Approved`, `Rep Applications Approved`) %>%  #select only the columns we need
-  filter(`CountyName` %!=% 'TOTAL') %>%  #filter out only TOTAL row
+  filter(`CountyName` != 'TOTAL') %>%  #filter out only TOTAL row
   replace(is.na(.), "0") %>%  #replace everything that's "NULL" with a "0" 
   mutate(`Total Applications Approved`= as.numeric(`Total Applications Approved`),
          `Total Ballots Returned` = as.numeric(`Total Ballots Returned`), 
