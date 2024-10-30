@@ -168,7 +168,6 @@ ballots <- read_excel(filename, sheet = "Total", trim_ws = TRUE, skip = 1, col_n
 ```{r, echo=FALSE, warning=FALSE}
 
 ballots_clean <- ballots %>% 
-  filter(`CountyName` != 'TOTAL') %>%  #filter out only TOTAL row
   replace(is.na(.), "0") %>%  #replace everything that's "NULL" with a "0" 
   mutate(`Total Applications Approved`= as.numeric(`Total Applications Approved`),
          `Total Ballots Returned` = as.numeric(`Total Ballots Returned`), 
@@ -183,7 +182,14 @@ ballots_clean <- ballots %>%
          County = `CountyName`) %>% 
   mutate(`Percent Returned` = round(((`Ballots Returned`/`Ballot Applications Approved`)*100), digits=2))  #percent that have been returned
 
+ballots_clean_total <- ballots_clean %>% 
+  filter(`CountyName` == 'TOTAL') #select only TOTAL row
+
+ballots_clean <- ballots_clean %>% 
+  filter(`CountyName` != 'TOTAL')  #filter out only TOTAL row
+
 write.csv(ballots_clean, "ballots_clean.csv", row.names = FALSE)
+write.csv(ballots_clean_total, "ballots_clean_total.csv", row.names = FALSE)
 
 total_ballots_issued = sum(ballots_clean$`Ballot Applications Approved`)
 total_ballots_returned = sum(ballots_clean$`Ballots Returned`)
@@ -207,7 +213,7 @@ if (total_ballots_returned > 1000000) {
 
 <h1>Pennsylvania Mail Ballot Tracker</h1>
 <h4>Last updated `r today_display` </h4>
-
+<br><br><br><br>
 <div class="cardContainer">
 <div class="card" style="background-color:#00318b;">
 <p>Ballots issued<br>
