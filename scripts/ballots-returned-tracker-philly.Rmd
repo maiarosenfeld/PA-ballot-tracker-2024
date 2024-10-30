@@ -169,7 +169,7 @@ print(ballots)
 # as.numeric(which(grepl(`CountyName`, ballots$...1))) #which row has the actual column names
 
 names(ballots) <- ballots[1] #fill in the column names with the actual columnn names from that row
-ballots <- ballots[-row_with_names,] #drop that same row
+ballots <- ballots[-1,] #drop that same row
 print(colnames(ballots))
 
 ```
