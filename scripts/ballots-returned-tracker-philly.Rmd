@@ -87,10 +87,10 @@ h4 {
       width: calc(20% - 5px);
       padding: 5px;
       border-radius: 10px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-top: 3px;
-      margin-bottom: 3px;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-top: 10px;
+      margin-bottom: 10px;
       height: 100%;
    }
    .card p {
@@ -208,7 +208,7 @@ if (total_ballots_returned > 1000000) {
 
 <h1>Pennsylvania Mail Ballot Tracker</h1>
 <h4>Last updated `r today_display` </h4>
-<br><br><br><br>
+<br><br>
 <div class="cardContainer">
 <div class="card" style="background-color:#00318b;">
 <p>Ballots issued<br>
