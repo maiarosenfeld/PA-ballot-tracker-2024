@@ -182,7 +182,7 @@ ballots_clean <- ballots %>%
   rename(`Ballot Applications Approved`=`Total Applications Approved`,
          `Ballots Returned`=`Total Ballots Returned`,
          County = `CountyName`) %>% 
-  mutate(`% returned` = round(((`Total Ballots Returned`/`Total Applications Approved`)*100), digits=2)) %>%  #percent that have been returned
+  mutate(`% returned` = round(((`Ballots Returned`/`Ballot Applications Approved`)*100), digits=2)) %>%  #percent that have been returned
 
 write.csv(ballots_clean, "ballots_clean.csv", row.names = FALSE)
 
