@@ -190,8 +190,8 @@ write.csv(ballots_clean, "ballots_clean.csv", row.names = FALSE)
 
 ```{r, echo=FALSE, warning=FALSE}
 
-total_ballots_issued = sum(ballots_clean$`Total Applications Approved`)
-total_ballots_returned = sum(ballots_clean$`Total Ballots Returned`)
+total_ballots_issued = sum(ballots_clean$`Ballot Applications Approved`)
+total_ballots_returned = sum(ballots_clean$`Ballots Returned`)
 # total_ballots_accepted = sum(ballots_clean$`Ballots accepted`)
 total_pct_returned = round(((total_ballots_returned/total_ballots_issued)*100), digits=1)
 # total_pct_accepted = round(((total_ballots_accepted/total_ballots_issued)*100), digits=1)
