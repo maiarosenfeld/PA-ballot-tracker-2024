@@ -84,9 +84,9 @@ h4 {
    .card {
       color: white;
       float: left;
-      width: calc(20%);
+      width: calc(30%);
       padding: 5px;
-      border-radius: 10px;
+      border-radius: 20px;
       margin-left: 50px;
       margin-right: 50px;
       margin-top: 25px;
@@ -107,7 +107,7 @@ h4 {
    
    @media screen and (max-width: 760px) {
       .bignumber {
-         font-size: 32px;
+         font-size: 36px;
       }
      
      .card p {
@@ -209,7 +209,7 @@ if (total_ballots_returned > 1000000) {
 
 <h1>Pennsylvania Mail Ballot Tracker</h1>
 <h4>Last updated `r today_display` </h4>
-<br><br>
+<br>
 <div class="cardContainer">
 <div class="card" style="background-color:#00318b;">
 <p>Ballots issued<br>
@@ -223,6 +223,8 @@ if (total_ballots_returned > 1000000) {
 <p>Percent returned<br>
 <span class="bignumber">`r total_pct_returned`%<br></span><p>
 </div>
+<br>
+<br>
 <br>
 <br>
 <br>
