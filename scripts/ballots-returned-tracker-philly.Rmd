@@ -168,7 +168,7 @@ ballots <- read_excel(filename, sheet = "Total", trim_ws = TRUE, skip = 1, col_n
 ```{r, echo=FALSE, warning=FALSE}
 
 ballots_clean <- ballots %>% 
-  select(`CountyName`, `Total Applications Approved`,`Total Ballots Returned`, `Dem Applications Approved`, `Rep Applications Approved`) %>%  #select only the columns we need
+  select(`CountyName`, `Total Applications Approved`,`Total Ballots Returned`, `Dem Applications Approved`, `Rep Applications Approved`, `Oth Applications Approved`) %>%  #select only the columns we need
   filter(`CountyName` != 'TOTAL') %>%  #filter out only TOTAL row
   replace(is.na(.), "0") %>%  #replace everything that's "NULL" with a "0" 
   mutate(`Total Applications Approved`= as.numeric(`Total Applications Approved`),
