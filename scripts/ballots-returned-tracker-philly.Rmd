@@ -225,18 +225,9 @@ if (total_ballots_returned > 1000000) {
 <p>Ballots returned<br>
 <span class="bignumber">`r total_ballots_returned_display`<br></span>
 </div>
-#<div class="card" style="background-color:#00318b;">
-#<p>Ballots accepted<br>
-#<span class="bignumber">`r total_ballots_accepted_display`<br></span>
-#</div>
 <div class="card" style="background-color:#00318b;">
 <p>% returned<br>
 <span class="bignumber">`r total_pct_returned`%<br></span><p>
-</div>
-#<div class="card" style="background-color:#00318b;">
-#<p>% accepted<br>
-#<span class="bignumber">`r total_pct_accepted`%<br></span><p>
-#</div>
 </div>
 
 <br>
