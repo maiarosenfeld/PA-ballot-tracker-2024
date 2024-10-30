@@ -253,7 +253,7 @@ if (total_ballots_returned > 1000000) {
 <br>
 
 
-<iframe title="Ballots returned and accepted by county" aria-label="Map" id="datawrapper-chart-8PQ2q" src="https://datawrapper.dwcdn.net/8PQ2q/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="711" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="Mail Ballots Returned" aria-label="Map" id="datawrapper-chart-YxRx6" src="https://datawrapper.dwcdn.net/YxRx6/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="478" data-external="1"></iframe>
 </script>
 
 <br>
