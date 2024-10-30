@@ -163,14 +163,12 @@ download.file("https://www.pavoterservices.pa.gov/2024%20General%20Daily%20Mail%
 
 ballots <- read_excel(filename) #read file
 ballots <- ballots[-1,] #drop extranneous top line (could pull updated date/time from here)
-print(ballots)
 
 #row_with_names <- ballots[1]
 # as.numeric(which(grepl(`CountyName`, ballots$...1))) #which row has the actual column names
 
-names(ballots) <- ballots[1] #fill in the column names with the actual columnn names from that row
+names(ballots) <- ballots[1,] #fill in the column names with the actual columnn names from that row
 ballots <- ballots[-1,] #drop that same row
-print(colnames(ballots))
 
 ```
 
