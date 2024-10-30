@@ -205,10 +205,10 @@ if (total_ballots_returned > 1000000) {
 
 ```
 
-<h1>Pennslyvania Ballot Tracker</h1>
+<h1>Pennsylvania Ballot Tracker</h1>
 <h4>Last updated `r today_display` </h4>
 
-<div class="cardContainer">
+<div class="cardContainer" style="text-align:center;">
 <div class="card" style="background-color:#00318b;">
 <p>Ballots issued<br>
 <span class="bignumber">`r total_ballots_issued_display`<br></span>
@@ -224,13 +224,17 @@ if (total_ballots_returned > 1000000) {
 
 <br>
 <br>
-
+<br>
+<br>
 
 <iframe title="Share of mail ballots returned" aria-label="Map" id="datawrapper-chart-YxRx6" src="https://datawrapper.dwcdn.net/YxRx6/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="478" data-external="1"></iframe>
 </script>
 
 <br>
 <br>
+<br>
+<br>
+
 
 <iframe title="PA mail ballots by registered party" aria-label="Table" id="datawrapper-chart-l4o8R" src="https://datawrapper.dwcdn.net/l4o8R/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="461" data-external="1"></iframe>
 </script>
