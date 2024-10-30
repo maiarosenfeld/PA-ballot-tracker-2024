@@ -167,8 +167,8 @@ ballots <- ballots[-1,] #drop extranneous top line (could pull updated date/time
 # row_with_names <- ballots[1,]
 # as.numeric(which(grepl(`CountyName`, ballots$...1))) #which row has the actual column names
 
-colnames(ballots) <- ballots[1,] #fill in the column names with the actual columnn names from that row
-#ballots <- ballots[-1,] #drop that same row
+names(ballots) <- ballots[1,] #fill in the column names with the actual columnn names from that row
+ballots <- ballots[-1,] #drop that same row
 
 ```
 
