@@ -192,16 +192,16 @@ total_ballots_returned = sum(ballots_clean$`Ballots Returned`)
 total_pct_returned = round(((total_ballots_returned/total_ballots_issued)*100), digits=1)
 
 if (total_ballots_issued > 1000000) {
-  total_ballots_issued_display = paste(sep="", as.character(round((total_ballots_issued/1000000), digits=1)), " M")
+  total_ballots_issued_display = paste(sep="", as.character(round((total_ballots_issued/1000000), digits=2)), " M")
 } else {
-  total_ballots_issued_display = paste(sep="", as.character(round((total_ballots_issued/1000), digits=1)), " K")
+  total_ballots_issued_display = paste(sep="", as.character(round((total_ballots_issued/1000), digits=2)), " K")
 }
 
 
 if (total_ballots_returned > 1000000) {
-  total_ballots_returned_display = paste(sep="", as.character(round((total_ballots_returned/1000000), digits=1)), " M")
+  total_ballots_returned_display = paste(sep="", as.character(round((total_ballots_returned/1000000), digits=2)), " M")
 } else {
-  total_ballots_returned_display = paste(sep="", as.character(round((total_ballots_returned/1000), digits=1)), " K")
+  total_ballots_returned_display = paste(sep="", as.character(round((total_ballots_returned/1000), digits=2)), " K")
 }
 
 
