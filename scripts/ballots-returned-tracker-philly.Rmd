@@ -313,7 +313,8 @@ The current mail ballot return rate is lower among voters registered with neithe
 <br>
 <br>
 <br>
-<h5>Of Pennsylvania's nearly <b>9.2 million</b> registered voters, about <b>43.6%</b> are Democrats, <b>40.5%</b> are Republicans and <b>16%</b> are not affiliated with either party. Mail ballots are more popular among Pennsylvania Democrats, with <b>30%</b> issued a mail ballot, than among Republicans and other voters, with <b>19.3%</b> of each group successfully applying to vote by mail.
+<h5>Of Pennsylvania's nearly <b>9.2 million</b> registered voters, about <b>43.6%</b> are Democrats, <b>40.5%</b> are Republicans and <b>16%</b> are not affiliated with either party.
+<br><br>Mail ballots are more popular among Pennsylvania Democrats, with <b>30%</b> issued a mail ballot, than among Republicans and other voters, with <b>19.3%</b> of each group successfully applying to vote by mail.
 <br><br>
 Over <b>1.2 million</b> approved mail ballot applications in Pennsylvania belong to registered Democrats, making up the majority statewide. Registered Republicans account for about a third of approved applications, with just over <b>715,000</b> mail ballots issued across the state.
 </h5>
