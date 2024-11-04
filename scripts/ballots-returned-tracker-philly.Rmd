@@ -303,7 +303,7 @@ After this period, voters can check if their provisional ballot was counted by s
 
 <br>
 <br>
-
+<h5>Across Pennsylvania, `r total_pct_returned`% of mail ballots issued have been returned. Among registered Democrats, that rate is `r pct_returned_d`%, and among registered Republicans, it's `r pct_returned_r`%.</h5>
 <br>
 <br>
 <iframe title="Registered voters by county" aria-label="Election Donut" id="datawrapper-chart-2hWJj" src="https://datawrapper.dwcdn.net/2hWJj/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="354" data-external="1"></iframe>
