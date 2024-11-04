@@ -276,7 +276,7 @@ if (total_ballots_returned_o > 1000000) {
 <iframe title="Philadelphia mail ballots with deficiencies" aria-label="Table" id="datawrapper-chart-a81Nx" src="https://datawrapper.dwcdn.net/a81Nx/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="1412" data-external="1"></iframe>
 <br>
 <br>
-<h2>See Montgomery County mail ballots with issues <a href="https://www.montgomerycountypa.gov/DocumentCenter/View/45181/Ballots-with-Deficiencies?bidId=" target="_blank">here</a>.</h2>
+<h2><i>See <b>Montgomery County</b> mail ballots with issues <a href="https://www.montgomerycountypa.gov/DocumentCenter/View/45181/Ballots-with-Deficiencies?bidId=" target="_blank">here</a>.</i></h2>
 <br>
 <br>
 
@@ -293,11 +293,9 @@ if (total_ballots_returned_o > 1000000) {
 <br>
 <br>
 <br>
-<br>
 <iframe title="Partisan makeup of mail ballots returned" aria-label="Multiple Donuts" id="datawrapper-chart-uZNUS" src="https://datawrapper.dwcdn.net/uZNUS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1935" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
-<br>
 <br>
 <br>
 <div class="footer">Page built and designed by Maia Rosenfeld. Source: <a href="https://www.pa.gov/en/agencies/vote/elections/elections-data.html" target="_blank">Pennsylvania Department of State</a>. Data usually lags by about a day.</div>
