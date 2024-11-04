@@ -270,7 +270,7 @@ if (total_ballots_returned_o > 1000000) {
 </div>
 <div class="card" style="background-color:#DAA520;">
 <p>Other ballots returned<br>
-<span class="bignumber">`r total_ballots_returned_o_display`%<br></span><p>
+<span class="bignumber">`r total_ballots_returned_o_display`<br></span><p>
 </div>
 <br>
 <br>
