@@ -269,12 +269,14 @@ if (total_ballots_returned_o > 1000000) {
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 <iframe title="Philadelphia mail ballots with deficiencies" aria-label="Table" id="datawrapper-chart-a81Nx" src="https://datawrapper.dwcdn.net/a81Nx/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="1412" data-external="1"></iframe>
 <br>
 <br>
 <h2>See Montgomery County mail ballots with issues <a href="https://www.montgomerycountypa.gov/DocumentCenter/View/45181/Ballots-with-Deficiencies?bidId=" target="_blank">here</a>.</h2>
-<br>
 <br>
 <br>
 
@@ -283,11 +285,12 @@ if (total_ballots_returned_o > 1000000) {
 
 <br>
 <br>
-<br>
 
 <iframe title="PA mail ballots by registered party" aria-label="Table" id="datawrapper-chart-l4o8R" src="https://datawrapper.dwcdn.net/l4o8R/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="461" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
+<br>
+<br>
 <br>
 <br>
 <br>
