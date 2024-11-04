@@ -191,6 +191,11 @@ total_ballots_issued = sum(ballots_clean$`Ballot Applications Approved`)
 total_ballots_returned = sum(ballots_clean$`Ballots Returned`)
 total_pct_returned = round(((total_ballots_returned/total_ballots_issued)*100), digits=1)
 
+total_ballots_issued_d = sum(ballots_clean$`Democratic Applications Approved`)
+total_ballots_issued_r = sum(ballots_clean$`Republican Applications Approved`)
+total_ballots_returned_d = sum(ballots_clean$`Democratic Ballots Returned`)
+total_ballots_returned_r = sum(ballots_clean$`Republican Ballots Returned`)
+
 if (total_ballots_issued > 1000000) {
   total_ballots_issued_display = paste(sep="", as.character(round((total_ballots_issued/1000000), digits=2)), " M")
 } else {
@@ -205,26 +210,47 @@ if (total_ballots_returned > 1000000) {
 }
 
 
+if (total_ballots_returned_d > 1000000) {
+  total_ballots_returned_d_display = paste(sep="", as.character(round((total_ballots_returned_d/1000000), digits=2)), " M")
+} else {
+  total_ballots_returned_d_display = paste(sep="", as.character(round((total_ballots_returned_d/1000), digits=2)), " K")
+}
+
+if (total_ballots_returned_r > 1000000) {
+  total_ballots_returned_r_display = paste(sep="", as.character(round((total_ballots_returned_r/1000000), digits=2)), " M")
+} else {
+  total_ballots_returned_r_display = paste(sep="", as.character(round((total_ballots_returned_r/1000), digits=2)), " K")
+}
+
 ```
 
 <h1>Pennsylvania Mail Ballot Tracker</h1>
 <h4>Last updated `r today_display` </h4>
 <br>
 <div class="cardContainer">
-<div class="card" style="background-color:#00318b;">
+<div class="card" style="background-color:#3cb371;">
 <p>Ballots issued<br>
 <span class="bignumber">`r total_ballots_issued_display`<br></span>
 </div>
-<div class="card" style="background-color:#00318b;">
+<div class="card" style="background-color:#3cb371;">
 <p>Ballots returned<br>
 <span class="bignumber">`r total_ballots_returned_display`<br></span>
 </div>
-<div class="card" style="background-color:#00318b;">
+<div class="card" style="background-color:#3cb371;">
 <p>Percent returned<br>
 <span class="bignumber">`r total_pct_returned`%<br></span><p>
 </div>
 <br>
 <br>
+<div class="cardContainer">
+<div class="card" style="background-color:#0000FF;">
+<p>Democratic ballots returned<br>
+<span class="bignumber">`r total_ballots_returned_d_display`<br></span>
+</div>
+<div class="card" style="background-color:#DC143C;">
+<p>Republican ballots returned<br>
+<span class="bignumber">`r total_ballots_returned_r_display`<br></span>
+</div>
 <br>
 <br>
 <br>
