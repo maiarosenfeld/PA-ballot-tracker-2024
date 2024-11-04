@@ -279,6 +279,14 @@ if (total_ballots_returned_o > 1000000) {
 <h2>See <b>Montgomery County</b> mail ballots with issues <a href="https://www.montgomerycountypa.gov/DocumentCenter/View/45181/Ballots-with-Deficiencies?bidId=" target="_blank">here</a>.</h2>
 <br>
 <br>
+<p>A provisional ballot is a voting method for people who are eliglble to vote but are not able to verify their eligibility at the polls on Election Day. Voters might use a provisional ballot if they are not on the voter rolls, they don't have required identification, they returned a mail ballot with a disqualifying flaw or they requested a mail ballot but did not return it.
+
+Within a week after Election Day, election officials will determine whether each provisional voter was eligible to vote in the election district where they cast a provisional ballot. They will count only the provisional ballots cast by eligible voters. After this period, voters can check if their provisional ballot was counted by searching <a href="https://www.pavoterservices.pa.gov/Pages/ProvisionalBallotSearch.aspx">here</a>.
+</p>
+<br>
+<br>
+<br>
+<br>
 
 <iframe title="Share of mail ballots returned" aria-label="Map" id="datawrapper-chart-YxRx6" src="https://datawrapper.dwcdn.net/YxRx6/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="478" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
