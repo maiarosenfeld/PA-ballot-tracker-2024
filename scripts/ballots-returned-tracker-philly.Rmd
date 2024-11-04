@@ -50,7 +50,7 @@ h2 {
   #font-family: roboto;
   font-weight: 500;
   color: black;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 2;
@@ -263,6 +263,8 @@ if (total_ballots_returned_o > 1000000) {
 <p>Other ballots returned<br>
 <span class="bignumber">`r total_ballots_returned_o_display`<br></span><p>
 </div>
+<br>
+<br>
 <br>
 <br>
 <br>
