@@ -213,15 +213,21 @@ if (total_ballots_returned > 1000000) {
 
 
 if (total_ballots_returned_d > 1000000) {
-  total_ballots_returned_d_display = paste(sep="", as.character(round((total_ballots_returned_d/1000000), digits=2)), " M")
+  total_ballots_returned_d_display = paste(sep="", as.character(round((total_ballots_returned_d/1000000), digits=1)), " M")
 } else {
-  total_ballots_returned_d_display = paste(sep="", as.character(round((total_ballots_returned_d/1000), digits=2)), " K")
+  total_ballots_returned_d_display = paste(sep="", as.character(round((total_ballots_returned_d/1000), digits=1)), " K")
 }
 
 if (total_ballots_returned_r > 1000000) {
-  total_ballots_returned_r_display = paste(sep="", as.character(round((total_ballots_returned_r/1000000), digits=2)), " M")
+  total_ballots_returned_r_display = paste(sep="", as.character(round((total_ballots_returned_r/1000000), digits=1)), " M")
 } else {
-  total_ballots_returned_r_display = paste(sep="", as.character(round((total_ballots_returned_r/1000), digits=2)), " K")
+  total_ballots_returned_r_display = paste(sep="", as.character(round((total_ballots_returned_r/1000), digits=1)), " K")
+}
+
+if (total_ballots_returned_o > 1000000) {
+  total_ballots_returned_o_display = paste(sep="", as.character(round((total_ballots_returned_o/1000000), digits=1)), " M")
+} else {
+  total_ballots_returned_o_display = paste(sep="", as.character(round((total_ballots_returned_o/1000), digits=1)), " K")
 }
 
 ```
