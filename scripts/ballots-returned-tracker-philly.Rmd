@@ -283,7 +283,9 @@ if (total_ballots_returned_o > 1000000) {
 <h2><i>See Montgomery County mail ballots with issues <a href="https://www.montgomerycountypa.gov/DocumentCenter/View/45181/Ballots-with-Deficiencies?bidId=" target="_blank">here</a>.</i></h2>
 
 <br>
-<h5>A provisional ballot is a voting method for people who are eliglble to vote but are not able to verify their eligibility at the polls on Election Day. Voters might use a provisional ballot if they are not on the voter rolls, don't have required identification, returned a mail ballot with a disqualifying flaw or requested a mail ballot but did not return it.
+<h5>A provisional ballot is a voting method for people who are eliglble to vote but are not able to verify their eligibility at the polls on Election Day.
+<br><br>
+Voters might use a provisional ballot if they are not on the voter rolls, don't have required identification, returned a mail ballot with a disqualifying flaw or requested a mail ballot but did not return it.
 <br><br>
 Within a week after Election Day, election officials will determine whether each provisional voter was eligible to vote in the election district where they cast a provisional ballot. They will count only the provisional ballots cast by eligible voters.
 <br><br>
