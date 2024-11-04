@@ -276,7 +276,7 @@ if (total_ballots_returned_o > 1000000) {
 <iframe title="Philadelphia mail ballots with deficiencies" aria-label="Table" id="datawrapper-chart-a81Nx" src="https://datawrapper.dwcdn.net/a81Nx/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="1412" data-external="1"></iframe>
 <br>
 <br>
-<h2><i>See <b>Montgomery County</b> mail ballots with issues <a href="https://www.montgomerycountypa.gov/DocumentCenter/View/45181/Ballots-with-Deficiencies?bidId=" target="_blank">here</a>.</i></h2>
+<h2>See <b>Montgomery County</b> mail ballots with issues <a href="https://www.montgomerycountypa.gov/DocumentCenter/View/45181/Ballots-with-Deficiencies?bidId=" target="_blank">here</a>.</h2>
 <br>
 <br>
 
