@@ -201,9 +201,9 @@ total_ballots_issued_o = sum(ballots_clean$`Other Applications Approved`)
 total_ballots_returned_d = sum(ballots_clean$`Democratic Ballots Returned`)
 total_ballots_returned_r = sum(ballots_clean$`Republican Ballots Returned`)
 total_ballots_returned_o = sum(ballots_clean$`Other Ballots Returned`)
-pct_returned_d =  round(((total_ballots_returned_d/total_ballots_issued_d*100), digits=1)
-pct_returned_r =  round(((total_ballots_returned_r/total_ballots_issued_r*100), digits=1)
-pct_returned_o =  round(((total_ballots_returned_o/total_ballots_issued_o*100), digits=1)
+pct_returned_d =  round(((total_ballots_returned_d/total_ballots_issued_d)*100), digits=1)
+pct_returned_r =  round(((total_ballots_returned_r/total_ballots_issued_r)*100), digits=1)
+pct_returned_o =  round(((total_ballots_returned_o/total_ballots_issued_o)*100), digits=1)
 
 if (total_ballots_issued > 1000000) {
   total_ballots_issued_display = paste(sep="", as.character(round((total_ballots_issued/1000000), digits=2)), " M")
