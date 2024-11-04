@@ -193,8 +193,10 @@ total_pct_returned = round(((total_ballots_returned/total_ballots_issued)*100), 
 
 total_ballots_issued_d = sum(ballots_clean$`Democratic Applications Approved`)
 total_ballots_issued_r = sum(ballots_clean$`Republican Applications Approved`)
+total_ballots_issued_o = sum(ballots_clean$`Other Applications Approved`)
 total_ballots_returned_d = sum(ballots_clean$`Democratic Ballots Returned`)
 total_ballots_returned_r = sum(ballots_clean$`Republican Ballots Returned`)
+total_ballots_returned_o = sum(ballots_clean$`Other Ballots Returned`)
 
 if (total_ballots_issued > 1000000) {
   total_ballots_issued_display = paste(sep="", as.character(round((total_ballots_issued/1000000), digits=2)), " M")
@@ -250,6 +252,10 @@ if (total_ballots_returned_r > 1000000) {
 <div class="card" style="background-color:#DC143C;">
 <p>Republican ballots returned<br>
 <span class="bignumber">`r total_ballots_returned_r_display`<br></span>
+</div>
+<div class="card" style="background-color:#DAA520;">
+<p>Other ballots returned<br>
+<span class="bignumber">`r total_ballots_returned_o_display`%<br></span><p>
 </div>
 <br>
 <br>
