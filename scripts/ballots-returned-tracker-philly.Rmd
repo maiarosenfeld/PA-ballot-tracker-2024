@@ -31,7 +31,7 @@ h1.title {
   #font-family: roboto;
   color: black;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
     padding: 5px;
   font-style: italic;
 }
@@ -106,7 +106,7 @@ h5 {
    }
    .cardContainer:after {
       content: "";
-      display: block;
+      display: table;
       clear: both;
    }
    
@@ -327,10 +327,10 @@ Over <b>1.2 million</b> approved mail ballot applications in Pennsylvania belong
 <br>
 <br>
 <br>
-<h5>Mail ballots that have been returned have a very similar partisan makeup to all mail ballots issued to Pennsylvania voters.
+<h5>Mail ballots that have been returned have a very similar partisan makeup to that of all mail ballots issued to Pennsylvania voters.
 <br><br>However, the composition of returned mail ballots varies greatly between counties, reflecting differences in both partisanship and voting method preferences across the state.</h5>
 <br>
-
+<br>
 
 <iframe title="Partisan makeup of mail ballots returned" aria-label="Multiple Donuts" id="datawrapper-chart-uZNUS" src="https://datawrapper.dwcdn.net/uZNUS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1935" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
